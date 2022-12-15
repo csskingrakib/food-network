@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size:60px;
+    color:rgb(122, 117, 117);
+}
+h2{
+    font-size:34px;
+    color:rgb(122, 117, 117);
+}
+h3{
+    font-size:25px;
+    color:rgb(163, 161, 161);
+}
+#top-container{
+    margin-top:90px;
+}
+#second-container{
+    background-image: url(images/shapes/7.png);
+    width: 100%;
+    height:auto;
+}
+
+.pragraph1{
+    margin-top:40px;
+    color:rgb(49, 49, 49);
+    margin-bottom:50px;
+}
+.pragraph2{
+    margin-top:30px;
+    margin-bottom:150px;
+    
+}
+.orange-color{
+    color:orange;
+}
+
+.felxable-container{
+    display: flex;
+    margin-bottom:100px;
+}
+
+.half-width{
+    width:50%;
+    padding-left:5px;
+    margin-left:90px;
+    margin-top:40px;
+}
+
+.half-width img{
+    width: 100%;
+  
+   
+}
+.btn{
+    text-decoration:none;
+    color:white;
+    background-color:orange;
+    width:40px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.about-me-width{
+    width:50%;
+    padding-left:5px;
+    margin-left:90px;
+    margin-top:40px;
+}
+.about-me-width img{
+    width:300px;
+    height:100%;
+    margin-left:150px;
+}
+
+.recipies{
+    text-align: center;
+    margin-bottom:80px;
+}
+.recipies-pragraph{
+    margin-top:30px;
+}
+.recipies-items{
+    display:flex;
+   
+    
+}
+
+.diveded-width{
+    width:33.33%;
+    height:480px;
+    margin: 0 20px 20px 20px;
+    border: 15px solid white;
+    border-radius: 20px;
+    /* padding: 20px; */
+    box-shadow: 3px 3px 20px rgb(122, 121, 121);
+}
+.diveded-width img{
+    width:100%;
+    
+}
+.diveded-width p{
+    line-height:2;
+}
+.diveded-width h3{
+    font-weight: 900px;
+    font-size:20px;
+}
+#recipies-container{
+    margin:0 90px;
+}
+
+.Followers{
+    display: flex;
+   
+}
+
+.fotter-section{
+
+    width:100%;
+    height:200px;
+    background-color: black;
+    text-align: center;
+    margin-top:50px;
+    
+}
+
+.fotter-section p{
+    padding-top:30px  ;
+    color:rgb(141, 139, 139);
+}
+.fotter-section h3{
+    padding-top: 20px;
+}
