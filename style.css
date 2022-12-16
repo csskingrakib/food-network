@@ -117,7 +117,20 @@ h3{
 
 .Followers{
     display: flex;
-   
+    align-items: center;
+    justify-content: space-around;
+    width:88%;
+    height:190px;
+    background-color:white;
+    margin-left: 6%;
+    margin-top: 100px;
+    padding-bottom:30px;
+    box-shadow: 3px 3px 20px rgb(92, 91, 91);
+    border-radius: 15px;
+}
+
+.Followers p{
+    color:rgb(116, 116, 116);
 }
 
 .fotter-section{
@@ -128,6 +141,7 @@ h3{
     text-align: center;
     margin-top:50px;
     
+    
 }
 
 .fotter-section p{
@@ -136,4 +150,16 @@ h3{
 }
 .fotter-section h3{
     padding-top: 20px;
+}
+
+
+.Followers h1{
+    font-size: 40px;
+    color:black;
+    margin-top:30px;
+
+}
+
+.diveded-width h3{
+    color:black;
 }
